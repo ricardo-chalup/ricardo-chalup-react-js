@@ -1,5 +1,6 @@
  import logo from '../../logo.svg';
  import './Styles.css';
+ import CarWidget from '../CartWidget.jsx';
 const NavBar = () => {
        
     return (
@@ -19,6 +20,10 @@ const NavBar = () => {
                 <li>
                     <a href="#">About</a>
                 </li>       
+                <li>
+                    <a href="#">carrito</a>
+                      <CarWidget />
+                </li> 
             </ul>
          </div>
          <div>
@@ -30,5 +35,21 @@ const NavBar = () => {
  
     )
 }
+
+// function NavBar() {
+//     return <>
+//             // Customiza tu NavBar como prefieras 
+//             <h3>TU_MARCA</h3>
+//             <CartWidget />
+//     </>;
+// }
+
+// </NavBar>
+
+// (2) 
+// function ItemListContainer() {
+//  // Incluye aquí el rendering de algún texto o título provisional que luego reemplazaremos por nuestro catálogo
+// }
+
 
 export default NavBar;
