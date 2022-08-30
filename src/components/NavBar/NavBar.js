@@ -1,6 +1,6 @@
  import logo from '../../logo.svg';
  import './Styles.css';
- import CarWidget from '../CartWidget.jsx';
+ import CarWidget from '../CartWidget.jsx/CartWidget.jsx';
 const NavBar = () => {
        
     return (
